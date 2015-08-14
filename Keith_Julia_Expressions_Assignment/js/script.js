@@ -15,10 +15,9 @@ yourFirstName = prompt("What is your first name?");
 yourLastName = prompt("What is your last name?");
 yourAge = prompt("What is your age?");
 anyPets = prompt ("Do you have any pets?");
-yourAge = Number(yourAge);
 petAge = prompt ("What is your pets age?");
 petAge = Number(petAge);
-
+yourAge = Number(yourAge);
 
 // outputs
 console.log(" Hi, " + yourFirstName + " " + yourLastName + "." );
